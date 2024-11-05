@@ -46,4 +46,4 @@ Several improvements can be added to this project:
 ## Database Connection Abstraction
 For a simple abstraction of the database connection, AWS' services were used to demonstrate how the client can store his/her tabular files on a S3 Bucket, which in turn can be queried using Athena. This service can then be used to consult the desired database using Python AWS' SDK.
 
-https://lucid.app/documents/embedded/1a61c9c8-0c80-4b2e-b353-5ce38cf85b1f
+[https://lucid.app/documents/embedded/1a61c9c8-0c80-4b2e-b353-5ce38cf85b1f](https://lucid.app/lucidchart/1a61c9c8-0c80-4b2e-b353-5ce38cf85b1f/edit?view_items=5IAosqpPYney%2C_LAogjRSw~gD%2CsLAo~4oZptAa%2C2NAo0GpKV8sl%2ClBAoMq7eyG1~%2C9AAo_qYN6.Go%2CEOAo1Pf1Io3N%2CvMAo.sZt-0E2%2CrHAoM9kW2T0P%2CfNAoomD7NHp9%2CPDAoA2CqP0Tw&invitationId=inv_9102605c-17fe-4156-b3ce-b257f653ef32)
