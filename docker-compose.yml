@@ -1,0 +1,23 @@
+services:
+  train:
+    build:
+      context: ./model
+      dockerfile: Dockerfile.training
+    container_name: model_training
+    volumes:
+      - shared-data:/app/model/
+
+  serve:
+    build:
+      context: .
+      dockerfile: Dockerfile.serving 
+    container_name: model_serving
+    ports:
+      - "8000:8000"
+    volumes:
+      - shared-data:/app/model/
+    depends_on:
+      - train
+
+volumes:
+    shared-data:
